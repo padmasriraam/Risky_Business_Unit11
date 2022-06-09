@@ -51,5 +51,11 @@ https://github.com/padmasriraam/Risky_Business_Unit11/blob/main/src/credit_risk_
 
 <img width="461" alt="image" src="https://user-images.githubusercontent.com/50818927/172044871-e3b9aebc-ebe8-4565-b5e8-2f171167f20f.png">
 
+### Issues:
+
+Since I have pushed the notebook file in the 'src' folder for proper folder structure but forgot to update the src file path properly inside notebook. So if you find issues running notebook file then could you please change the filepath from
+"file_path = Path('Resources/LoanStats_2019Q1.csv')" 
+to file_path = Path('../Resources/LoanStats_2019Q1.csv'). It should work.
+
 
 
